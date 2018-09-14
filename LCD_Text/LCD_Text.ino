@@ -8,8 +8,8 @@ const byte lcdRows = 2;
 LiquidCrystal_I2C lcd(lcdAddr, lcdCols, lcdRows);
 
 // Demo parameters
-const char myText1[]= "Hello Digilab!";
-const char myText2[]= "STEM Education!";
+const char myText1[]= "Hello World";
+const char myText2[]= "I am using I2C!";
 const unsigned int scrollDelay = 500;   
 const unsigned int textDelay = 2000;  
 byte textLen;                          
